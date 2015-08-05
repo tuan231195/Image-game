@@ -3,6 +3,15 @@
     android:layout_height="match_parent"  tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:id="@+id/tvScore"
+        android:background="#000"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:gravity="center_horizontal"/>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -12,15 +21,15 @@
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile1" />
+            android:id="@+id/tile1"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile2" />
+            android:id="@+id/tile2"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile3" />
+            android:id="@+id/tile3"/>
     </LinearLayout>
 
     <LinearLayout
@@ -31,16 +40,16 @@
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile4" />
+            android:id="@+id/tile4"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile5" />
+            android:id="@+id/tile5"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile6" />
-        </LinearLayout>
+            android:id="@+id/tile6"/>
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -50,15 +59,15 @@
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile7" />
+            android:id="@+id/tile7"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile8" />
+            android:id="@+id/tile8"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile9" />
+            android:id="@+id/tile9"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -68,16 +77,17 @@
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile10" />
+            android:id="@+id/tile10"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile11" />
+            android:id="@+id/tile11"
+            />
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile12" />
-        </LinearLayout>
+            android:id="@+id/tile12"/>
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -87,16 +97,16 @@
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile13" />
+            android:id="@+id/tile13"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile14" />
+            android:id="@+id/tile14"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile15" />
-        </LinearLayout>
+            android:id="@+id/tile15"/>
+    </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -105,14 +115,16 @@
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile16" />
+            android:id="@+id/tile16"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile17" />
+            android:id="@+id/tile17"/>
         <com.example.tuannguyen.assignment1.view.TileView android:layout_width = "0dp"
             android:layout_height="match_parent" android:layout_weight="1"
             android:orientation="vertical"
-            android:id="@+id/tile18" />
-        </LinearLayout>
+            android:id="@+id/tile18"/>
+    </LinearLayout>
+
+
 </LinearLayout>
